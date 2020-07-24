@@ -1,18 +1,18 @@
-import { Component, ComponentInterface, Host, h } from '@stencil/core';
+import { Component, ComponentInterface, Host, h } from "@stencil/core";
 
 @Component({
-  tag: 'uk-badge',
-  styleUrl: 'uk-badge.scss',
+  tag: "uk-badge",
+  styleUrl: "uk-badge.scss",
   shadow: true,
 })
 export class UkBadge implements ComponentInterface {
-
   render() {
     return (
       <Host>
-        <slot></slot>
+        <span class="uk-badge">
+          <slot />
+        </span>
       </Host>
     );
   }
-
 }

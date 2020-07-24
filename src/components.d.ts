@@ -6,32 +6,552 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface UkAccordion {
+    }
+    interface UkAlert {
+    }
+    interface UkArticle {
+    }
+    interface UkArticleTitle {
+    }
     interface UkBadge {
+    }
+    interface UkBreadcrumb {
+    }
+    interface UkButton {
+    }
+    interface UkCard {
+    }
+    interface UkDescriptionList {
+    }
+    interface UkDivider {
+    }
+    interface UkDotnav {
+    }
+    interface UkDropdown {
+    }
+    interface UkHeading {
+    }
+    interface UkIcon {
+    }
+    interface UkImage {
+    }
+    interface UkLabel {
+    }
+    interface UkLightbox {
+    }
+    interface UkLink {
+    }
+    interface UkList {
+    }
+    interface UkListItem {
+    }
+    interface UkMarker {
+    }
+    interface UkModal {
+    }
+    interface UkModalBody {
+    }
+    interface UkModalFooter {
+    }
+    interface UkModalHeader {
+    }
+    interface UkModalTitle {
+    }
+    interface UkNav {
+    }
+    interface UkNavbar {
+    }
+    interface UkOffcanvas {
+    }
+    interface UkOverlay {
+    }
+    interface UkPagination {
+    }
+    interface UkPlaceholder {
+    }
+    interface UkProgress {
+    }
+    interface UkSearch {
+    }
+    interface UkSpinner {
+    }
+    interface UkTab {
+    }
+    interface UkTable {
+    }
+    interface UkText {
+    }
+    interface UkThumbnav {
+    }
+    interface UkTile {
+    }
+    interface UkTooltip {
     }
 }
 declare global {
+    interface HTMLUkAccordionElement extends Components.UkAccordion, HTMLStencilElement {
+    }
+    var HTMLUkAccordionElement: {
+        prototype: HTMLUkAccordionElement;
+        new (): HTMLUkAccordionElement;
+    };
+    interface HTMLUkAlertElement extends Components.UkAlert, HTMLStencilElement {
+    }
+    var HTMLUkAlertElement: {
+        prototype: HTMLUkAlertElement;
+        new (): HTMLUkAlertElement;
+    };
+    interface HTMLUkArticleElement extends Components.UkArticle, HTMLStencilElement {
+    }
+    var HTMLUkArticleElement: {
+        prototype: HTMLUkArticleElement;
+        new (): HTMLUkArticleElement;
+    };
+    interface HTMLUkArticleTitleElement extends Components.UkArticleTitle, HTMLStencilElement {
+    }
+    var HTMLUkArticleTitleElement: {
+        prototype: HTMLUkArticleTitleElement;
+        new (): HTMLUkArticleTitleElement;
+    };
     interface HTMLUkBadgeElement extends Components.UkBadge, HTMLStencilElement {
     }
     var HTMLUkBadgeElement: {
         prototype: HTMLUkBadgeElement;
         new (): HTMLUkBadgeElement;
     };
+    interface HTMLUkBreadcrumbElement extends Components.UkBreadcrumb, HTMLStencilElement {
+    }
+    var HTMLUkBreadcrumbElement: {
+        prototype: HTMLUkBreadcrumbElement;
+        new (): HTMLUkBreadcrumbElement;
+    };
+    interface HTMLUkButtonElement extends Components.UkButton, HTMLStencilElement {
+    }
+    var HTMLUkButtonElement: {
+        prototype: HTMLUkButtonElement;
+        new (): HTMLUkButtonElement;
+    };
+    interface HTMLUkCardElement extends Components.UkCard, HTMLStencilElement {
+    }
+    var HTMLUkCardElement: {
+        prototype: HTMLUkCardElement;
+        new (): HTMLUkCardElement;
+    };
+    interface HTMLUkDescriptionListElement extends Components.UkDescriptionList, HTMLStencilElement {
+    }
+    var HTMLUkDescriptionListElement: {
+        prototype: HTMLUkDescriptionListElement;
+        new (): HTMLUkDescriptionListElement;
+    };
+    interface HTMLUkDividerElement extends Components.UkDivider, HTMLStencilElement {
+    }
+    var HTMLUkDividerElement: {
+        prototype: HTMLUkDividerElement;
+        new (): HTMLUkDividerElement;
+    };
+    interface HTMLUkDotnavElement extends Components.UkDotnav, HTMLStencilElement {
+    }
+    var HTMLUkDotnavElement: {
+        prototype: HTMLUkDotnavElement;
+        new (): HTMLUkDotnavElement;
+    };
+    interface HTMLUkDropdownElement extends Components.UkDropdown, HTMLStencilElement {
+    }
+    var HTMLUkDropdownElement: {
+        prototype: HTMLUkDropdownElement;
+        new (): HTMLUkDropdownElement;
+    };
+    interface HTMLUkHeadingElement extends Components.UkHeading, HTMLStencilElement {
+    }
+    var HTMLUkHeadingElement: {
+        prototype: HTMLUkHeadingElement;
+        new (): HTMLUkHeadingElement;
+    };
+    interface HTMLUkIconElement extends Components.UkIcon, HTMLStencilElement {
+    }
+    var HTMLUkIconElement: {
+        prototype: HTMLUkIconElement;
+        new (): HTMLUkIconElement;
+    };
+    interface HTMLUkImageElement extends Components.UkImage, HTMLStencilElement {
+    }
+    var HTMLUkImageElement: {
+        prototype: HTMLUkImageElement;
+        new (): HTMLUkImageElement;
+    };
+    interface HTMLUkLabelElement extends Components.UkLabel, HTMLStencilElement {
+    }
+    var HTMLUkLabelElement: {
+        prototype: HTMLUkLabelElement;
+        new (): HTMLUkLabelElement;
+    };
+    interface HTMLUkLightboxElement extends Components.UkLightbox, HTMLStencilElement {
+    }
+    var HTMLUkLightboxElement: {
+        prototype: HTMLUkLightboxElement;
+        new (): HTMLUkLightboxElement;
+    };
+    interface HTMLUkLinkElement extends Components.UkLink, HTMLStencilElement {
+    }
+    var HTMLUkLinkElement: {
+        prototype: HTMLUkLinkElement;
+        new (): HTMLUkLinkElement;
+    };
+    interface HTMLUkListElement extends Components.UkList, HTMLStencilElement {
+    }
+    var HTMLUkListElement: {
+        prototype: HTMLUkListElement;
+        new (): HTMLUkListElement;
+    };
+    interface HTMLUkListItemElement extends Components.UkListItem, HTMLStencilElement {
+    }
+    var HTMLUkListItemElement: {
+        prototype: HTMLUkListItemElement;
+        new (): HTMLUkListItemElement;
+    };
+    interface HTMLUkMarkerElement extends Components.UkMarker, HTMLStencilElement {
+    }
+    var HTMLUkMarkerElement: {
+        prototype: HTMLUkMarkerElement;
+        new (): HTMLUkMarkerElement;
+    };
+    interface HTMLUkModalElement extends Components.UkModal, HTMLStencilElement {
+    }
+    var HTMLUkModalElement: {
+        prototype: HTMLUkModalElement;
+        new (): HTMLUkModalElement;
+    };
+    interface HTMLUkModalBodyElement extends Components.UkModalBody, HTMLStencilElement {
+    }
+    var HTMLUkModalBodyElement: {
+        prototype: HTMLUkModalBodyElement;
+        new (): HTMLUkModalBodyElement;
+    };
+    interface HTMLUkModalFooterElement extends Components.UkModalFooter, HTMLStencilElement {
+    }
+    var HTMLUkModalFooterElement: {
+        prototype: HTMLUkModalFooterElement;
+        new (): HTMLUkModalFooterElement;
+    };
+    interface HTMLUkModalHeaderElement extends Components.UkModalHeader, HTMLStencilElement {
+    }
+    var HTMLUkModalHeaderElement: {
+        prototype: HTMLUkModalHeaderElement;
+        new (): HTMLUkModalHeaderElement;
+    };
+    interface HTMLUkModalTitleElement extends Components.UkModalTitle, HTMLStencilElement {
+    }
+    var HTMLUkModalTitleElement: {
+        prototype: HTMLUkModalTitleElement;
+        new (): HTMLUkModalTitleElement;
+    };
+    interface HTMLUkNavElement extends Components.UkNav, HTMLStencilElement {
+    }
+    var HTMLUkNavElement: {
+        prototype: HTMLUkNavElement;
+        new (): HTMLUkNavElement;
+    };
+    interface HTMLUkNavbarElement extends Components.UkNavbar, HTMLStencilElement {
+    }
+    var HTMLUkNavbarElement: {
+        prototype: HTMLUkNavbarElement;
+        new (): HTMLUkNavbarElement;
+    };
+    interface HTMLUkOffcanvasElement extends Components.UkOffcanvas, HTMLStencilElement {
+    }
+    var HTMLUkOffcanvasElement: {
+        prototype: HTMLUkOffcanvasElement;
+        new (): HTMLUkOffcanvasElement;
+    };
+    interface HTMLUkOverlayElement extends Components.UkOverlay, HTMLStencilElement {
+    }
+    var HTMLUkOverlayElement: {
+        prototype: HTMLUkOverlayElement;
+        new (): HTMLUkOverlayElement;
+    };
+    interface HTMLUkPaginationElement extends Components.UkPagination, HTMLStencilElement {
+    }
+    var HTMLUkPaginationElement: {
+        prototype: HTMLUkPaginationElement;
+        new (): HTMLUkPaginationElement;
+    };
+    interface HTMLUkPlaceholderElement extends Components.UkPlaceholder, HTMLStencilElement {
+    }
+    var HTMLUkPlaceholderElement: {
+        prototype: HTMLUkPlaceholderElement;
+        new (): HTMLUkPlaceholderElement;
+    };
+    interface HTMLUkProgressElement extends Components.UkProgress, HTMLStencilElement {
+    }
+    var HTMLUkProgressElement: {
+        prototype: HTMLUkProgressElement;
+        new (): HTMLUkProgressElement;
+    };
+    interface HTMLUkSearchElement extends Components.UkSearch, HTMLStencilElement {
+    }
+    var HTMLUkSearchElement: {
+        prototype: HTMLUkSearchElement;
+        new (): HTMLUkSearchElement;
+    };
+    interface HTMLUkSpinnerElement extends Components.UkSpinner, HTMLStencilElement {
+    }
+    var HTMLUkSpinnerElement: {
+        prototype: HTMLUkSpinnerElement;
+        new (): HTMLUkSpinnerElement;
+    };
+    interface HTMLUkTabElement extends Components.UkTab, HTMLStencilElement {
+    }
+    var HTMLUkTabElement: {
+        prototype: HTMLUkTabElement;
+        new (): HTMLUkTabElement;
+    };
+    interface HTMLUkTableElement extends Components.UkTable, HTMLStencilElement {
+    }
+    var HTMLUkTableElement: {
+        prototype: HTMLUkTableElement;
+        new (): HTMLUkTableElement;
+    };
+    interface HTMLUkTextElement extends Components.UkText, HTMLStencilElement {
+    }
+    var HTMLUkTextElement: {
+        prototype: HTMLUkTextElement;
+        new (): HTMLUkTextElement;
+    };
+    interface HTMLUkThumbnavElement extends Components.UkThumbnav, HTMLStencilElement {
+    }
+    var HTMLUkThumbnavElement: {
+        prototype: HTMLUkThumbnavElement;
+        new (): HTMLUkThumbnavElement;
+    };
+    interface HTMLUkTileElement extends Components.UkTile, HTMLStencilElement {
+    }
+    var HTMLUkTileElement: {
+        prototype: HTMLUkTileElement;
+        new (): HTMLUkTileElement;
+    };
+    interface HTMLUkTooltipElement extends Components.UkTooltip, HTMLStencilElement {
+    }
+    var HTMLUkTooltipElement: {
+        prototype: HTMLUkTooltipElement;
+        new (): HTMLUkTooltipElement;
+    };
     interface HTMLElementTagNameMap {
+        "uk-accordion": HTMLUkAccordionElement;
+        "uk-alert": HTMLUkAlertElement;
+        "uk-article": HTMLUkArticleElement;
+        "uk-article-title": HTMLUkArticleTitleElement;
         "uk-badge": HTMLUkBadgeElement;
+        "uk-breadcrumb": HTMLUkBreadcrumbElement;
+        "uk-button": HTMLUkButtonElement;
+        "uk-card": HTMLUkCardElement;
+        "uk-description-list": HTMLUkDescriptionListElement;
+        "uk-divider": HTMLUkDividerElement;
+        "uk-dotnav": HTMLUkDotnavElement;
+        "uk-dropdown": HTMLUkDropdownElement;
+        "uk-heading": HTMLUkHeadingElement;
+        "uk-icon": HTMLUkIconElement;
+        "uk-image": HTMLUkImageElement;
+        "uk-label": HTMLUkLabelElement;
+        "uk-lightbox": HTMLUkLightboxElement;
+        "uk-link": HTMLUkLinkElement;
+        "uk-list": HTMLUkListElement;
+        "uk-list-item": HTMLUkListItemElement;
+        "uk-marker": HTMLUkMarkerElement;
+        "uk-modal": HTMLUkModalElement;
+        "uk-modal-body": HTMLUkModalBodyElement;
+        "uk-modal-footer": HTMLUkModalFooterElement;
+        "uk-modal-header": HTMLUkModalHeaderElement;
+        "uk-modal-title": HTMLUkModalTitleElement;
+        "uk-nav": HTMLUkNavElement;
+        "uk-navbar": HTMLUkNavbarElement;
+        "uk-offcanvas": HTMLUkOffcanvasElement;
+        "uk-overlay": HTMLUkOverlayElement;
+        "uk-pagination": HTMLUkPaginationElement;
+        "uk-placeholder": HTMLUkPlaceholderElement;
+        "uk-progress": HTMLUkProgressElement;
+        "uk-search": HTMLUkSearchElement;
+        "uk-spinner": HTMLUkSpinnerElement;
+        "uk-tab": HTMLUkTabElement;
+        "uk-table": HTMLUkTableElement;
+        "uk-text": HTMLUkTextElement;
+        "uk-thumbnav": HTMLUkThumbnavElement;
+        "uk-tile": HTMLUkTileElement;
+        "uk-tooltip": HTMLUkTooltipElement;
     }
 }
 declare namespace LocalJSX {
+    interface UkAccordion {
+    }
+    interface UkAlert {
+    }
+    interface UkArticle {
+    }
+    interface UkArticleTitle {
+    }
     interface UkBadge {
     }
+    interface UkBreadcrumb {
+    }
+    interface UkButton {
+    }
+    interface UkCard {
+    }
+    interface UkDescriptionList {
+    }
+    interface UkDivider {
+    }
+    interface UkDotnav {
+    }
+    interface UkDropdown {
+    }
+    interface UkHeading {
+    }
+    interface UkIcon {
+    }
+    interface UkImage {
+    }
+    interface UkLabel {
+    }
+    interface UkLightbox {
+    }
+    interface UkLink {
+    }
+    interface UkList {
+    }
+    interface UkListItem {
+    }
+    interface UkMarker {
+    }
+    interface UkModal {
+    }
+    interface UkModalBody {
+    }
+    interface UkModalFooter {
+    }
+    interface UkModalHeader {
+    }
+    interface UkModalTitle {
+    }
+    interface UkNav {
+    }
+    interface UkNavbar {
+    }
+    interface UkOffcanvas {
+    }
+    interface UkOverlay {
+    }
+    interface UkPagination {
+    }
+    interface UkPlaceholder {
+    }
+    interface UkProgress {
+    }
+    interface UkSearch {
+    }
+    interface UkSpinner {
+    }
+    interface UkTab {
+    }
+    interface UkTable {
+    }
+    interface UkText {
+    }
+    interface UkThumbnav {
+    }
+    interface UkTile {
+    }
+    interface UkTooltip {
+    }
     interface IntrinsicElements {
+        "uk-accordion": UkAccordion;
+        "uk-alert": UkAlert;
+        "uk-article": UkArticle;
+        "uk-article-title": UkArticleTitle;
         "uk-badge": UkBadge;
+        "uk-breadcrumb": UkBreadcrumb;
+        "uk-button": UkButton;
+        "uk-card": UkCard;
+        "uk-description-list": UkDescriptionList;
+        "uk-divider": UkDivider;
+        "uk-dotnav": UkDotnav;
+        "uk-dropdown": UkDropdown;
+        "uk-heading": UkHeading;
+        "uk-icon": UkIcon;
+        "uk-image": UkImage;
+        "uk-label": UkLabel;
+        "uk-lightbox": UkLightbox;
+        "uk-link": UkLink;
+        "uk-list": UkList;
+        "uk-list-item": UkListItem;
+        "uk-marker": UkMarker;
+        "uk-modal": UkModal;
+        "uk-modal-body": UkModalBody;
+        "uk-modal-footer": UkModalFooter;
+        "uk-modal-header": UkModalHeader;
+        "uk-modal-title": UkModalTitle;
+        "uk-nav": UkNav;
+        "uk-navbar": UkNavbar;
+        "uk-offcanvas": UkOffcanvas;
+        "uk-overlay": UkOverlay;
+        "uk-pagination": UkPagination;
+        "uk-placeholder": UkPlaceholder;
+        "uk-progress": UkProgress;
+        "uk-search": UkSearch;
+        "uk-spinner": UkSpinner;
+        "uk-tab": UkTab;
+        "uk-table": UkTable;
+        "uk-text": UkText;
+        "uk-thumbnav": UkThumbnav;
+        "uk-tile": UkTile;
+        "uk-tooltip": UkTooltip;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "uk-accordion": LocalJSX.UkAccordion & JSXBase.HTMLAttributes<HTMLUkAccordionElement>;
+            "uk-alert": LocalJSX.UkAlert & JSXBase.HTMLAttributes<HTMLUkAlertElement>;
+            "uk-article": LocalJSX.UkArticle & JSXBase.HTMLAttributes<HTMLUkArticleElement>;
+            "uk-article-title": LocalJSX.UkArticleTitle & JSXBase.HTMLAttributes<HTMLUkArticleTitleElement>;
             "uk-badge": LocalJSX.UkBadge & JSXBase.HTMLAttributes<HTMLUkBadgeElement>;
+            "uk-breadcrumb": LocalJSX.UkBreadcrumb & JSXBase.HTMLAttributes<HTMLUkBreadcrumbElement>;
+            "uk-button": LocalJSX.UkButton & JSXBase.HTMLAttributes<HTMLUkButtonElement>;
+            "uk-card": LocalJSX.UkCard & JSXBase.HTMLAttributes<HTMLUkCardElement>;
+            "uk-description-list": LocalJSX.UkDescriptionList & JSXBase.HTMLAttributes<HTMLUkDescriptionListElement>;
+            "uk-divider": LocalJSX.UkDivider & JSXBase.HTMLAttributes<HTMLUkDividerElement>;
+            "uk-dotnav": LocalJSX.UkDotnav & JSXBase.HTMLAttributes<HTMLUkDotnavElement>;
+            "uk-dropdown": LocalJSX.UkDropdown & JSXBase.HTMLAttributes<HTMLUkDropdownElement>;
+            "uk-heading": LocalJSX.UkHeading & JSXBase.HTMLAttributes<HTMLUkHeadingElement>;
+            "uk-icon": LocalJSX.UkIcon & JSXBase.HTMLAttributes<HTMLUkIconElement>;
+            "uk-image": LocalJSX.UkImage & JSXBase.HTMLAttributes<HTMLUkImageElement>;
+            "uk-label": LocalJSX.UkLabel & JSXBase.HTMLAttributes<HTMLUkLabelElement>;
+            "uk-lightbox": LocalJSX.UkLightbox & JSXBase.HTMLAttributes<HTMLUkLightboxElement>;
+            "uk-link": LocalJSX.UkLink & JSXBase.HTMLAttributes<HTMLUkLinkElement>;
+            "uk-list": LocalJSX.UkList & JSXBase.HTMLAttributes<HTMLUkListElement>;
+            "uk-list-item": LocalJSX.UkListItem & JSXBase.HTMLAttributes<HTMLUkListItemElement>;
+            "uk-marker": LocalJSX.UkMarker & JSXBase.HTMLAttributes<HTMLUkMarkerElement>;
+            "uk-modal": LocalJSX.UkModal & JSXBase.HTMLAttributes<HTMLUkModalElement>;
+            "uk-modal-body": LocalJSX.UkModalBody & JSXBase.HTMLAttributes<HTMLUkModalBodyElement>;
+            "uk-modal-footer": LocalJSX.UkModalFooter & JSXBase.HTMLAttributes<HTMLUkModalFooterElement>;
+            "uk-modal-header": LocalJSX.UkModalHeader & JSXBase.HTMLAttributes<HTMLUkModalHeaderElement>;
+            "uk-modal-title": LocalJSX.UkModalTitle & JSXBase.HTMLAttributes<HTMLUkModalTitleElement>;
+            "uk-nav": LocalJSX.UkNav & JSXBase.HTMLAttributes<HTMLUkNavElement>;
+            "uk-navbar": LocalJSX.UkNavbar & JSXBase.HTMLAttributes<HTMLUkNavbarElement>;
+            "uk-offcanvas": LocalJSX.UkOffcanvas & JSXBase.HTMLAttributes<HTMLUkOffcanvasElement>;
+            "uk-overlay": LocalJSX.UkOverlay & JSXBase.HTMLAttributes<HTMLUkOverlayElement>;
+            "uk-pagination": LocalJSX.UkPagination & JSXBase.HTMLAttributes<HTMLUkPaginationElement>;
+            "uk-placeholder": LocalJSX.UkPlaceholder & JSXBase.HTMLAttributes<HTMLUkPlaceholderElement>;
+            "uk-progress": LocalJSX.UkProgress & JSXBase.HTMLAttributes<HTMLUkProgressElement>;
+            "uk-search": LocalJSX.UkSearch & JSXBase.HTMLAttributes<HTMLUkSearchElement>;
+            "uk-spinner": LocalJSX.UkSpinner & JSXBase.HTMLAttributes<HTMLUkSpinnerElement>;
+            "uk-tab": LocalJSX.UkTab & JSXBase.HTMLAttributes<HTMLUkTabElement>;
+            "uk-table": LocalJSX.UkTable & JSXBase.HTMLAttributes<HTMLUkTableElement>;
+            "uk-text": LocalJSX.UkText & JSXBase.HTMLAttributes<HTMLUkTextElement>;
+            "uk-thumbnav": LocalJSX.UkThumbnav & JSXBase.HTMLAttributes<HTMLUkThumbnavElement>;
+            "uk-tile": LocalJSX.UkTile & JSXBase.HTMLAttributes<HTMLUkTileElement>;
+            "uk-tooltip": LocalJSX.UkTooltip & JSXBase.HTMLAttributes<HTMLUkTooltipElement>;
         }
     }
 }
